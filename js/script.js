@@ -1,10 +1,8 @@
 $(document).ready(function() {
 
-    $('.mobile').click(function(e) {
-        e.preventDefault();
+    $('#hamburger').click(function() {
         console.log('menu clicked!');
-        $('#show-this-on-click').slideToggle('slow', function() {
-        });
+        $('#show-this-on-click').slideToggle('slow');
     });
 
 });
